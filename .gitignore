@@ -3,6 +3,9 @@
 *.lo
 *.o
 *.obj
+*.ilk
+*.pdb
+*.tlog
 
 # Precompiled Headers
 *.gch
@@ -24,7 +27,7 @@
 *.out
 *.app
 
-#vs temp 
+#vs using log or self setting 
 *.suo
 *.sdf
 *.opensdf
