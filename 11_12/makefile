@@ -5,6 +5,6 @@ allTarget:stdafx_target 11_12_target
 	rm -rf stdafx.o 11_12.o
 #complie the cpps into objects
 stdafx_target:
-	g++ -c stdafx.cpp -o stdafx.o
+	g++ -std=c++11 -c stdafx.cpp -o stdafx.o
 11_12_target:
-	g++ -c 11_12.cpp -o 11_12.o
+	g++ -std=c++11 -c 11_12.cpp -o 11_12.o

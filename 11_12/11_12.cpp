@@ -18,8 +18,9 @@ inline T fromString(const string &str)
 	return v;
 }
 
-int main()
+int main(int argv,char **argc)
 {
+	//int * temp = nullptr;
 	int v1=fromString<int>("5");
 	cout<<v1<<endl;
 	double v2=fromString<double>("1.2");
